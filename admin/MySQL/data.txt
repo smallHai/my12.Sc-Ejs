@@ -1,0 +1,17 @@
+【数据字典】
+管理员表
+    常规：id、username、password
+    权限：b_house、b_ad、b_link、b_broker
+管理员token表
+    常规：id、admin_id、expires
+房屋表
+    常规：id、admin_id、title、sub_title、position_main、position_second、ave_price、area_min、area_max、tel、sale_time、submit_time、building_type、main_img_path、main_img_real_path、img_paths、img_real_paths、property_types、property_img_paths、property_img_real_paths
+广告表
+    常规：id、admin_id、type、title、link、img_path、img_real_path、expires、n_order、n_show、n_click
+友情链接表
+    常规：id、admin_id、type、title、link、expires、n_order
+置业顾问表
+    常规：id、title、img_path、img_real_path
+
+【接口字典】
+服务端渲染，所以不太需要
